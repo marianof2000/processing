@@ -34,7 +34,8 @@ void setup() {
       .setPosition(300, 10+i*15)
       .setRange(0, 100)
       .setColorValueLabel(0)
-      .setColorCaptionLabel(0);
+      .setColorCaptionLabel(0)
+      .setValue(80);
   }
   smooth();
   noStroke();
