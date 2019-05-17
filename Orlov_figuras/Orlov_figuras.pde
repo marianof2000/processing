@@ -26,7 +26,8 @@ void setup() {
       .setPosition(10, 10+i*15)
       .setRange(-10, 10)
       .setColorValueLabel(0)
-      .setColorCaptionLabel(0);
+      .setColorCaptionLabel(0)
+      .setValue(random(-10,10));
   }
   for (int i=0; i<colorcp5.length; i++) {
     colorcp5[i] = new ControlP5(this);
